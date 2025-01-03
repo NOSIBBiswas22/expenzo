@@ -5,7 +5,7 @@ const Settings = (content) => {
         <div class="section">
           <div class="category-page">
           <div class="category-form">
-          <h3> and Import Data</h3>
+          <h3>Export and Import Data</h3>
               <!-- <button id="get-local-data-btn" class="btn">Get All Data as JSON</button> -->
               <button id="download-data-btn" class="btn"><i class="fa-solid fa-download icon"></i> Export Data</button>
               <input type="file" id="import-file" class="btn" style="display:none" />
