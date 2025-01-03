@@ -20,10 +20,10 @@ const Settings = (content) => {
             <button id="add-category-btn" class="btn"><i class="fa-solid fa-plus"></i> Category</button>
           </div>
           <h3>Available Categories:</h3>
-          <div class="category-container">
           <div class="form-group">
             <input type="text" id="filter-category" placeholder="Search by category..." />
           </div>
+          <div class="category-container">
           <ul id="category-list">
             <!-- List of categories will be populated here -->
           </ul>
