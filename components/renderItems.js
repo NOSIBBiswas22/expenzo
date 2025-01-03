@@ -25,7 +25,7 @@
     // Display "No data to display" message
     const row = document.createElement("tr");
     row.innerHTML = `
-      <td colspan="6" style="margin: 4px; text-align: center; font-style: italic;">No data to display. Add some entries.</td>
+      <td colspan="7" style="margin: 4px; text-align: center; font-style: italic;">No data to display. Add some entries.</td>
     `;
     tableBody.appendChild(row);
     return;
