@@ -94,7 +94,7 @@ nav a.active {
   border-bottom: 2px solid #f1f1f1;
   padding-bottom: 5px;
 }
-.list-table{
+.list-table {
   max-height: 70vh;
   overflow-y: auto;
   margin-bottom: 20px;
@@ -175,7 +175,7 @@ table tr.total-row {
 .filter-input {
   width: 40%;
 }
-.form-group .search-input{
+.form-group .search-input {
   padding-left: 30px;
   padding-right: 0;
 }
@@ -183,7 +183,7 @@ table tr.total-row {
 .category-page {
   border-radius: 8px;
 }
-.category-container{
+.category-container {
   max-height: 40vh;
   overflow-y: auto;
 }
@@ -301,7 +301,7 @@ h3 {
   margin-right: 2px;
 }
 
-.search-icon{
+.search-icon {
   position: absolute;
   margin: 11px;
 }
@@ -335,17 +335,20 @@ canvas {
     width: 95%;
     left: 2.5%;
   }
-  .nav-bar{
+  .nav-bar {
     width: 90%;
   }
   table th,
   table td {
     padding: 7px;
   }
+  .form-group .catagory, .form-group select {
+    width: 100%;
+  }
+  .form-group input {
+    width: 95%;
+  }
   .form-group .search-input{
-    width: 90%;
- }
-  #filter-category{
-    width: 102%;
+    width: 92%; 
   }
 }
