@@ -167,7 +167,6 @@ table tr.total-row {
   border-radius: 4px;
 }
 .filter-container {
-  margin-left: 8px;
   display: flex;
   width: 100%;
   justify-content: space-between;
