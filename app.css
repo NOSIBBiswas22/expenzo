@@ -177,6 +177,7 @@ table tr.total-row {
 }
 .form-group .search-input{
   padding-left: 30px;
+  padding-right: 0;
 }
 /* Styling for Category Page */
 .category-page {
