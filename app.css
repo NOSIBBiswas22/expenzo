@@ -342,6 +342,9 @@ canvas {
   table td {
     padding: 7px;
   }
+  .form-group .search-input{
+    width: 90%;
+ }
   #filter-category{
     width: 102%;
   }
