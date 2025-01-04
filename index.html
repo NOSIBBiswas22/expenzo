@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- CODING BY NOSIB BISWAS -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expenzo | Track your expences | Developed by Nosib Biswas</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="app.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <!-- jsPDF autoTable plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.24/jspdf.plugin.autotable.min.js"></script>
+  </head>
+  <body>
+    <div class="nav-bar">Expenzo</div>
+    <nav>
+      <a href="#" id="add-items-page">
+        <i class="fas fa-plus-circle"></i>
+        <span>Add</span>
+      </a>
+      <a href="#" id="view-page">
+        <i class="fa-solid fa-table-list"></i>
+        <span>List</span>
+      </a>
+      <a href="#" id="summary-page">
+        <i class="fas fa-chart-pie"></i>
+        <span>Summary</span>
+      </a>
+      <a href="#" id="settings-page">
+        <i class="fa-solid fa-gear"></i>
+        <span>Settings</span>
+      </a>
+    </nav>
+
+    <div class="container" id="content">
+      <!-- Default content will be displayed here dynamically -->
+    </div>
+
+    <footer><a href="https://nosibbiswas22.github.io/nosibbiswas/">Devleoped by Nosib Biswas &copy; <span class="footer-year"></span> Expenzo. All rights reserved.</a></footer>
+
+
+    <script src="components/ToastTheme.js"></script>
+    <script src="components/toastify.js"></script>
+    <script src="components/modal.js"></script>
+    <script src="components/localdb.js"></script>
+    <script src="components/actions.js"></script>
+    <script src="components/renderCategories.js"></script>
+    <script src="components/renderItems.js"></script>
+    <script src="components/AddItem.js"></script>
+    <script src="components/EditEntry.js"></script>
+    <script src="components/ListItems.js"></script>
+    <script src="components/Summary.js"></script>
+    <script src="components/Settings.js"></script>
+    <script src="components/Navigation.js"></script>
+    <script src="components/TopLoadingBar.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
