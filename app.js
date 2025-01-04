@@ -34,13 +34,27 @@ document.getElementById("summary-page").addEventListener("click", (e) => {
   loadingBar.finish(); // Complete the loading bar animation
 });
 
+const settingsIcon = document.getElementById("settings-icon");
+let deg = 0; // Initialize rotation degree
+
 document.getElementById("settings-page").addEventListener("click", (e) => {
   e.preventDefault();
-  loadingBar.reset(); // Reset and start the loading bar
-  loadingBar.start(); // Reset and start the loading bar
-  loadingBar.progress(50); // Set progress to 50%
+
+  // Reset and start the loading bar
+  loadingBar.reset();
+  loadingBar.start();
+  loadingBar.progress(50);
+
+  // Increment rotation degree and apply it to the icon
+  deg += 90;
+  settingsIcon.style.transition = "transform 0.3s ease"; // Smooth transition
+  settingsIcon.style.transform = `rotate(${deg}deg)`; // Rotate to the new degree
+
+  // Call settings function
   Settings(content);
-  loadingBar.finish(); // Complete the loading bar animation
+
+  // Complete the loading bar animation
+  loadingBar.finish();
 });
 
 // Initial Page Load
