@@ -1,9 +1,7 @@
  const ListItems = (content) => {
   content.innerHTML = `
    <div class="section">
-   <h2>Daily Expences</h2>
-   <h3>Current Month: ${currentMonth}</h3> <!-- Display current month -->
-   
+   <h2>Daily Expences</h2>   
    <div class="filter-container">
     <div class="form-group filter-input">
       <label for="filter-item">Filter by Item</label>
