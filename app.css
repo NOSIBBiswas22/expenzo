@@ -334,6 +334,9 @@ canvas {
     width: 95%;
     left: 2.5%;
   }
+  .nav-bar{
+    width: 90%;
+  }
   table th,
   table td {
     padding: 7px;
