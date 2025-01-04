@@ -11,7 +11,7 @@
     </div>
     <div class="form-group filter-input">
       <label for="filter-category">Filter by Category</label>
-      <select class="catagory" id="filter-category">
+      <select id="filter-category">
           <!-- Categories will be populated here -->
       </select>
     </div>
