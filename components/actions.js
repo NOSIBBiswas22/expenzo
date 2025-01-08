@@ -70,7 +70,7 @@ const content = document.getElementById("content");
     "fa-regular fa-trash-can", // Icon class
     "#c9302c", // Icon color
     "450px", // Modal size
-    `Are you sure you want clear all data?`, // Modal message
+    `Are you sure you want to clear all entries?`, // Modal message
     "Delete Confirmation", // Header
     "center", // Header alignment
     50, // Icon size
