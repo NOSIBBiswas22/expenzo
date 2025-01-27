@@ -47,7 +47,6 @@
       </td>
     `;
     tableBody.appendChild(row);
-    i++;
   });
 
   // Add event listeners programmatically after the DOM is updated
