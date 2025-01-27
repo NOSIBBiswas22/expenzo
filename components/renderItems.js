@@ -31,12 +31,11 @@
     return;
   }
 
-  let i=1;
   filteredData.forEach((entry) => {
 
     const row = document.createElement("tr");
     row.innerHTML = `
-      <td>${i}</td>
+      <td>${entry.originalIndex + 1}</td>
       <td>${entry.item}</td>
       <td>${entry.quantity}</td>
       <td>${entry.category}</td>
