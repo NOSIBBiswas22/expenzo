@@ -62,10 +62,12 @@ const initializeApp = () => {
   const data = getData(); // Get data from localStorage
   if (data.length === 0) {
     // If no data, load the Add Items page
-    AddItem(content);
+    document.getElementById("add-items-page").click();
+    //AddItem(content);
   } else {
     // If data exists, load the View page
-    ListItems(content);
+    document.getElementById("view-page").click();
+    //ListItems(content);
   }
 };
 
@@ -76,6 +78,6 @@ window.onload = () => {
   loadingBar.finish(); // Complete and hide the loading bar
 };
 
+Navigation("nav");
 // Call the initialize function on page load
 initializeApp();
-Navigation("nav");
